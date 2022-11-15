@@ -5,10 +5,9 @@
     <parent>
         <artifactId>nutilsxlib</artifactId>
         <groupId>com.nekozouneko</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>nutilsxlib-spigot</artifactId>
 
     <properties>
@@ -29,6 +28,7 @@
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>1.19.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
