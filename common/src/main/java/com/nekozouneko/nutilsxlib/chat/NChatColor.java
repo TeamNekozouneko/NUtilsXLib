@@ -47,4 +47,8 @@ public class NChatColor {
         return replaceAltColorCodes('&', s);
     }
 
+    public static String cleanColorCodes(String s) {
+        return s.replaceAll("\u00A7([0-9A-Fa-fK-Ok-orRxX])", "");
+    }
+
 }
