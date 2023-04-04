@@ -9,13 +9,13 @@ NUtilsX Library (NUtilsXLib) は、プラグイン開発のユーティリティ
 ```xml
 <repositry>
     <id>nekozouneko-repository</id>
-    <url>https://repos.nekozouneko.net/repository/nekozorepo/</url>
+    <url>https://repo.nekozouneko.net/repository/nekozorepo/</url>
 </repositry>
 ```
 
 ```groovy
 maven {
-    url "https://repos.nekozouneko.net/repository/nekozorepo/"    
+    url "https://repo.nekozouneko.net/repository/nekozorepo/"    
 }
 ```
 
